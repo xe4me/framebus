@@ -1,11 +1,11 @@
 {
-  "name": "framebus",
-  "description": "Framebus allows you to easily send messages across frames (and iframes) with a simple bus.",
+  "name": "@mothership/framebus",
+  "description": "This is a fork of the braintree framebus, which enables the developer to decide on the iframe instance to emit to ",
   "repository": {
     "type": "git",
-    "url": "git@github.com:braintree/framebus"
+    "url": "git@github.com:xe4me/framebus.git"
   },
-  "homepage": "https://github.com/braintree/framebus",
+  "homepage": "https://github.com/xe4me/framebus.git",
   "version": "5.1.2",
   "main": "dist/index.js",
   "files": [
@@ -24,7 +24,7 @@
     "start": "./bin/www"
   },
   "license": "MIT",
-  "author": "braintree <code@getbraintree.com>",
+  "author": "Mothership <code@mothership.com>",
   "dependencies": {
     "@braintree/uuid": "^0.1.0"
   },
